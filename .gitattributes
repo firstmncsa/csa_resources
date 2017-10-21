@@ -1,6 +1,0 @@
-programming filter=lfs diff=lfs merge=lfs -text
-driver filter=lfs diff=lfs merge=lfs -text
-utilities filter=lfs diff=lfs merge=lfs -text
-reference filter=lfs diff=lfs merge=lfs -text
-firmware filter=lfs diff=lfs merge=lfs -text
-os filter=lfs diff=lfs merge=lfs -text
