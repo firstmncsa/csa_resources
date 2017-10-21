@@ -1,4 +1,4 @@
-Welcome! This repository is intended to contain everything a CSA might need to be prepped for an event, minus physical items of course, there are list in the goodie bag document though. We are constantly building the software list, updating all the resources and documenting useful items, if you find something useful that's not listed here, please let us know. Also please feel free to make suggestions, send PRs ask questions, etc.... Thanks!
+Welcome! This repository is intended to contain everything a CSA might need to be prepped for an event, minus physical items of course, there is a list of those items in the goodie bag document though. We are constantly building the software list, updating all the resources and documenting useful items, if you find something useful that's not listed here, please let us know. Also please feel free to make suggestions, send PRs ask questions, etc.... Thanks!
 
 CSA File Reference - Contains a list of files useful for CSA work, along with version info, OS, URL, location in repo and notes. -- For any licensed software, please follow the URL listed and accept the end user license.
 
