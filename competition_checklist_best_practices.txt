@@ -9,12 +9,14 @@ Competition Checklist / Best Practices
 		• Example: https://www.amazon.com/Crimping-Ernovo-Terminal-Connection-Connectors/dp/B075ZNL5MD/ref=sr_1_2?ie=UTF8&qid=1511289210&sr=8-2&keywords=ferrels
 		• Ensure power cables have NO copper showing on either end when they are inserted into the respective devices, PDP and Rio.
 		• Exposed copper wire / strands have a higher risk of shorting out and / or breaking.
+		
 	• Radio power
 		• Option #1: Ensure barrel connector is firmly seated into power socket on radio.
 			• Use 3d printed radio holder with barrel jack fitting to secure barrel connector.
 			• Use nylon zip ties to secure barrel connector.
 		• Option #2: Use POE injector to power radio.
 			• Either cut power cord portion of POE and insert that into the VRM or connect a barrel jack to the POE injector and use heat shrink to securely fasten barrel connectors together.
+			
 	• Robot Power
 		• Ensure battery connector is firmly attached.
 		• Use nylon zip tie to secure both connectors together.
@@ -27,6 +29,7 @@ Competition Checklist / Best Practices
 		• Ensure battery crimps are solidly crimped.
 		• Ensure battery wires and wires going into the PDP are not bent at high angles directly after the crimp.
 		• This will break strands in the wire leading to possible shorts, lower operational voltage and higher resistance which can lead to wires heating up and failure.
+		
 	• Driver Station
 		• Always charge your computer, both in the pit and on the field.
 		• Ensure there is no password on the computer, or ensure that all students know the password.
@@ -34,3 +37,14 @@ Competition Checklist / Best Practices
 		• Turn off Wi-Fi and Bluetooth on the driver station while at competitions.
 		• It is recommended to have a computer dedicated solely to being the driver station. This means no programming or surfing the web with this computer.
 		• If the computer must be used for other activities, close all applications except the driver station software when going out to a match.
+		
+	• Firmware / Software Versions
+		• Ensure you are up to date with the firmware during development and definitely prior to inspection.
+			• Driver Station
+			• RoboRio Image
+			• Talon SRX
+			• PCM
+			• PDP
+		• Use CSA file repo or resource reference for lists of current software / firmware.
+			• CSA file repo: https://drive.google.com/open?id=0B2HKW3Zk3KIRLUhpWWxWRUszbHc
+			• CSA file resource list: https://github.com/firstmncsa/csa_resources/blob/master/csa_file_reference.pdf
