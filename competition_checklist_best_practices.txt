@@ -28,7 +28,7 @@ Competition Checklist / Best Practices
 		• Ensure battery wires and wires going into the PDP are not bent at high angles directly after the crimp.
 		• This will break strands in the wire leading to possible shorts, lower operational voltage and higher resistance which can lead to wires heating up and failure.
 	• Driver Station
-		• Always charge your comuter, both in the pit and on the field.
+		• Always charge your computer, both in the pit and on the field.
 		• Ensure there is no password on the computer, or ensure that all students know the password.
 		• Turn off Windows Updates while at competitions.
 		• Turn off Wi-Fi and Bluetooth on the driver station while at competitions.
