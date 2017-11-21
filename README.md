@@ -8,7 +8,7 @@ CSA Note - This is a note specifically for contacting a CSA on and off season fo
 
 CSA Goodie Bag - This is a list of hardware, cables, tools, etc... that a CSA might need for an event.
 
-All of these lists, documents and files are in a constant state of change. Please clone this repo and update it often with a pull. We recommend cloning this repo to your CSA flash drive and then updating it there as often as possible. We recommend you copy the contents of the google drive down to your CSA flash drive just prior to an event as well. We will try to stay as update to date with the sources of the files as possible.
+All of these lists, documents and files are in a constant state of change. Please clone this repo and update it often with a pull. We recommend cloning this repo to your CSA flash drive and then updating it there as often as possible. We recommend you copy the contents of the google drive down to your CSA flash drive just prior to an event as well. We will try to stay as up to date with the sources of the files as possible.
 
 Thanks and looking forward to another great year in FRC!
 First MN CSA team
