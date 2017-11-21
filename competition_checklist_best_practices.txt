@@ -1,0 +1,29 @@
+Competition Checklist / Best Practices
+
+
+
+	•	RoboRio power
+	•	Ensure 10 amp fuse is damage free and firmly inserted into PDP at the appropriate location.
+	•	Ensure you have spare unused 10 amp fuses.
+	•	Ensure power cables are firmly inserted and locked in to the PDP and Rio power connector. Use of ferrules / ferrels is highly recommended.
+	•	Example: https://www.amazon.com/Crimping-Ernovo-Terminal-Connection-Connectors/dp/B075ZNL5MD/ref=sr_1_2?ie=UTF8&qid=1511289210&sr=8-2&keywords=ferrels
+	•	Ensure power cables have NO copper showing on either end when they are inserted into the respective devices, PDP and Rio.
+	•	Exposed copper wire / strands have a higher risk of shorting out and / or breaking.
+	•	Radio power
+	•	Option #1: Ensure barrel connector is firmly seated into power socket on radio.
+	•	Use 3d printed radio holder with barrel jack fitting to secure barrel connector.
+	•	Use nylon zip ties to secure barrel connector.
+	•	Option #2: Use POE injector to power radio.
+	•	Either cut power cord portion of POE and insert that into the VRM or connect a barrel jack to the POE injector and use heat shrink to securely fasten barrel connectors together.
+	•	Robot Power
+	•	Ensure battery connector is firmly attached.
+	•	Use nylon zip tie to secure both connectors together.
+	•	Ensure battery holder is capable of securely holding battery in event of full speed stoppage. eg; going full speed into a wall or another robot.
+	•	Ensure main breaker is clear of any moving items that may trigger the “off” button on top.
+	•	If main breaker has tripped multiple times, it may be more susceptible to tripping at a lower amperage or failing altogether. This really depends on a wide variety of circumstances, but if it appears to be tripping often and there’s no obvious cause, replace it and test.
+	•	Have a backup main breaker available.
+	•	Test it before competition.
+	•	Impact, continuity, off button, etc…
+	•	Ensure battery crimps are solidly crimped.
+	•	Ensure battery wires and wires going into the PDP are not bent at high angles directly after the crimp.
+	•	This will break strands in the wire leading to possible shorts, lower operational voltage and higher resistance which can lead to wires heating up and failure.
