@@ -40,11 +40,14 @@ Competition Checklist / Best Practices
 		
 	• Firmware / Software Versions
 		• Ensure you are up to date with the firmware during development and definitely prior to inspection.
-			• Driver Station
-			• RoboRio Image
-			• Talon SRX
-			• PCM
-			• PDP
+			• Software
+				• Driver Station
+				• WPILib
+			• Firmware
+				• RoboRio Image
+				• Talon SRX
+				• PCM
+				• PDP
 		• Use CSA file repo or resource reference for lists of current software / firmware.
 			• CSA file repo: https://drive.google.com/open?id=0B2HKW3Zk3KIRLUhpWWxWRUszbHc
 			• CSA file resource list: https://github.com/firstmncsa/csa_resources/blob/master/csa_file_reference.pdf
