@@ -28,7 +28,7 @@ Competition Checklist / Best Practices
 		• Have a backup main breaker available.
 		• Test it before competition.
 		• Impact, continuity, off button, etc…
-		• Ensure battery crimps are solidly crimped.
+		• Ensure battery crimps are properly and solidly crimped. If desired, solder them. Crimping Power Lugs - https://www.youtube.com/watch?v=-0aNc8M0MY8
 		• Ensure battery wires and wires going into the PDP are not bent at high angles directly after the crimp.
 		• This will break strands in the wire leading to possible shorts, lower operational voltage and higher resistance which can lead to wires heating up and failure.
 		
