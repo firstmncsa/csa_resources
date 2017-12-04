@@ -53,3 +53,16 @@ Competition Checklist / Best Practices
 		• Use CSA file repo or resource reference for lists of current software / firmware.
 			• CSA file repo: https://drive.google.com/open?id=0B2HKW3Zk3KIRLUhpWWxWRUszbHc
 			• CSA file resource list: https://github.com/firstmncsa/csa_resources/blob/master/csa_file_reference.pdf
+
+	• Inspection readiness
+		• Go through inspection checklist prior to bag day
+		• Attach bag and tag form to robot bag via clear plastic sleeve
+		• Put a copy of CAW on driver station for quick access
+		• Prepare any spare parts necessary for quick installation (bag with robot if possible to avoid withholding allowance)
+
+	• Mechanical
+		• Ensure all motors with have leads attached
+		• Identify if any mechanism is exposed to potential impact and determine if it needs to be protected.
+
+	• Misc. 
+		• Generate pre match check-list, assign action to specific individuals. Run through it several times before bag up. Test checklist at Week 0 event.
