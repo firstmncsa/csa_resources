@@ -10,17 +10,17 @@ In general you will want the following things from a Driver’s Station laptop.
 	⁃	
 	⁃	13” screen minimum - You will want to be able to see the dashboard / shuffleboard easily.
 	⁃	
-	⁃	Reliability - Spend a little more on less features if it means you will get a reliable laptop - You don’t want to be stuck with a broken Drivers Station during competition.
+	⁃	Reliability - Spend a little more for a laptop with fewer features if it means you will get a more reliable laptop - You don’t want to be stuck with a broken Drivers Station during competition.
 	⁃	
 	⁃	Research / Sourcing - Read reviews thoroughly, ensure the laptop you are about to purchase is well reviewed and purchased from a reputable outlet. - AKA 4+ star minimum for product and reseller. 50+ reviews of both.
 	⁃	
-	⁃	Isolate function - Keep the Driver’s Station software / function separate at least at the account level if not at the laptop level - minimize the possibility of having one function interfere with another.
+	⁃	Isolate function - Keep the Driver’s Station software / function separated at least at the account level if not at the laptop level - minimize the possibility of having one function interfere with another.
 	⁃	
 	⁃	Backup laptop - keep old working laptops on standby and current at the OS and drivers stations software layers. Just in case your primary driver’s station goes down.
 	⁃	
 	⁃	2+ USB 3 ports - These can be USB C provided you have dongles for it.
 	⁃	
-	⁃	Ethernet port or quality ethernet dongle with additional USB ports - Driver’s station requires wired ethernet during competition. A dongle is fine, just make sure you have enough USB ports. Remember that a USB / ethernet dongle is NOT powered, so if the USB device you are using requires a lot of power, do NOT use it with the ethernet dongle. Most joysticks and controllers are just fine connected to a dongle.
+	⁃	Ethernet port or quality ethernet dongle with additional USB ports - The driver’s station requires a wired ethernet connection during competition. An ethernet dongle is fine, just make sure you have enough USB ports for it. Remember that the additional USB ports on a USB ethernet dongle are NOT powered. So if a USB device you are using requires a lot of power, do NOT use it with the ethernet dongle. Connect high power drain USB devices directly to the laptop. Most joysticks and controllers are just fine connected to an ethernet dongle with additional USB ports.
 	⁃	
 	⁃	No additional software - this goes with the isolate function, but extends it to the management level. Do NOT install school management software or firewall software. This will almost certainly interfere with the driver’s station.
 
