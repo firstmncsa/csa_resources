@@ -13,11 +13,11 @@ Competition Checklist / Best Practices
 			•Digi-Key: https://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&itemSeq=245008439&uq=636473371908847165
 		
 	• Radio power
-		• Option #1: Ensure barrel connector is firmly seated into power socket on radio.
-			• Use 3d printed radio holder with barrel jack fitting to secure barrel connector.
-			• Use nylon zip ties to secure barrel connector.
-		• Option #2: Use POE injector to power radio.
+		• Option #1: Use POE injector to power radio.
 			• Either cut power cord portion of POE and insert that into the VRM or connect a barrel jack to the POE injector and use heat shrink to securely fasten barrel connectors together.
+		• Option #2: Ensure barrel connector is firmly seated into power socket on radio.
+			• Use 3d printed radio holder with barrel jack fitting to secure barrel connector.
+			• Use nylon zip ties to secure barrel connector. Take care to not crush the radio with the zip ties as this may lead to internal short circuits occuring.
 			
 	• Robot Power
 		• Ensure battery connector is firmly attached.
