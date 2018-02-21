@@ -36,9 +36,18 @@ Competition Checklist / Best Practices
 		• Always charge your computer, both in the pit and on the field.
 		• Ensure there is no password on the computer, or ensure that all students know the password.
 		• Turn off Windows Updates while at competitions.
+		• Turn off Windows Defender Firewall on private networks while at competitions.
+		• Turn off IPv6 on Ethernet, Wifi and USB - ethernet network adapters.
+		• Turn on IPv4 DHCP aka Obtain IP Address automatically.
 		• Turn off Wi-Fi and Bluetooth on the driver station while at competitions.
 		• It is recommended to have a computer dedicated solely to being the driver station. This means no programming or surfing the web with this computer.
 		• If the computer must be used for other activities, close all applications except the driver station software when going out to a match.
+
+	• RoboRio
+		• Turn on IPv4 DHCP / dynamic / automatic addressing for the Ethernet interface on the RoboRio web interface.
+
+	• On-board co-processors
+		• Turn on IPv4 DHCP / dynamic / automatic addressing for their respective Ethernet interfaces.
 		
 	• Firmware / Software Versions
 		• Ensure you are up to date with the firmware during development and definitely prior to inspection.
