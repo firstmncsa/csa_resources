@@ -17,7 +17,7 @@ Competition Checklist / Best Practices
 			• Either cut power cord portion of POE and insert that into the VRM or connect a barrel jack to the POE injector and use heat shrink to securely fasten barrel connectors together.
 		• Option #2: Ensure barrel connector is firmly seated into power socket on radio.
 			• Use 3d printed radio holder with barrel jack fitting to secure barrel connector.
-			• Use nylon zip ties to secure barrel connector. Take care to not crush the radio with the zip ties as this may lead to internal short circuits occuring.
+			• Use nylon zip ties to secure barrel connector. Take care to not crush the radio with the zip ties as this may lead to internal short circuits occurring.
 			
 	• Robot Power
 		• Ensure battery connector is firmly attached.
@@ -42,6 +42,7 @@ Competition Checklist / Best Practices
 		• Turn off Wi-Fi and Bluetooth on the driver station while at competitions.
 		• It is recommended to have a computer dedicated solely to being the driver station. This means no programming or surfing the web with this computer.
 		• If the computer must be used for other activities, close all applications except the driver station software when going out to a match.
+		• Move or remove old DS Log files, default path: c:\Users\Public\Documents\FRC\DS Logs, suggestion is to move to another folder for archiving.
 
 	• RoboRio
 		• Turn on IPv4 DHCP / dynamic / automatic addressing for the Ethernet interface on the RoboRio web interface.
