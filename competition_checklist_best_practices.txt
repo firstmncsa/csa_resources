@@ -24,9 +24,10 @@ Competition Checklist / Best Practices
 			• Use use hot glue gun to secure barrel connector. Take care not to burn yourself. Please do this AFTER programming the radio for competition use.
 			• Use nylon zip ties to secure barrel connector. Take care to not crush the radio with the zip ties as this may lead to internal short circuits occurring.
 		• Option #3: Use 3rd party PoE injector to power radio.
-			• Either cut power cord portion of POE and insert that into the VRM or connect a barrel jack to the POE injector and use heat shrink to securely fasten barrel connectors together.
+			• Either cut barrel jack connector of POE and insert bare wires into the VRM or connect a barrel jack pigtail to the POE injector and use heat shrink to securely fasten barrel connectors together.
 			• Amazon - PoE Injector: https://www.amazon.com/gp/product/B00XMHDETM/ref=oh_aui_detailpage_o03_s01?ie=UTF8&psc=1
 			• Amazon - Power Pigtail for PoE injector: https://www.amazon.com/gp/product/B072BXB2Y8/ref=oh_aui_detailpage_o02_s00?ie=UTF8&psc=1
+			• NOTE: The KoP PoE and the above PoE injector are cabled differently for ethernet. The 3rd party PoE injector above should have it's ethernet cord plugged directly into the RoboRio and then a standard ethernet cable run from it's ethernet jack to the ethernet port next to the power port on the radio. Regardless of which PoE injector you use, ensure you know which side of the injector has power and should go to the radio.
 
 	• Robot Power
 		• Ensure battery connector is firmly attached.
