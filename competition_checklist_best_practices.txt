@@ -3,10 +3,13 @@ Competition Checklist / Best Practices
 
 
 	• RoboRio power
-		• Ensure 10 amp fuse is damage free and firmly inserted into PDP at the appropriate location.
-		• Ensure you have spare unused 10 amp fuses.
+		• Ensure 10 & 20 amp mini blade fuses are damage free and firmly inserted into PDP at their appropriate location.
+		• Ensure you have spare unused 10 amp fuses: This protects the RoboRio.
+			• Amazon: https://www.amazon.com/Bussmann-VP-ATM-10-RP-Fast-Acting/dp/B004AHC4MG/ref=sr_1_6?ie=UTF8&qid=1520223779&sr=8-6&keywords=atm+10+amp+blade+mini
+		• Ensure you have spare unused 20 amp fuses: This protects the VRM and possibly PCM if it's connected to the same section.
+			• Amazon: https://www.amazon.com/Bussman-ATM-20-Mini-Fuses-Count/dp/B004AHAAWC/ref=sr_1_7?srs=3019914011&ie=UTF8&qid=1520229683&sr=8-7&keywords=20+amp
 		• Ensure power cables are firmly inserted and locked in to the PDP and Rio power connector. Use of ferrules / ferrels is highly recommended.
-		• Example: https://www.amazon.com/Crimping-Ernovo-Terminal-Connection-Connectors/dp/B075ZNL5MD/ref=sr_1_2?ie=UTF8&qid=1511289210&sr=8-2&keywords=ferrels
+			• Amazon: https://www.amazon.com/Crimping-Ernovo-Terminal-Connection-Connectors/dp/B075ZNL5MD/ref=sr_1_2?ie=UTF8&qid=1511289210&sr=8-2&keywords=ferrels
 		• Ensure power cables have NO copper showing on either end when they are inserted into the respective devices, PDP and Rio.
 		• Exposed copper wire / strands have a higher risk of shorting out and / or breaking.
 		• Ensure you have extra RoboRio power connectors
