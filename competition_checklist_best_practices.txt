@@ -43,6 +43,11 @@ Competition Checklist / Best Practices
 		• Ensure battery crimps are properly and solidly crimped. If desired, solder them. Crimping Power Lugs - https://www.youtube.com/watch?v=-0aNc8M0MY8
 		• Ensure battery wires and wires going into the PDP are not bent at high angles directly after the crimp.
 		• This will break strands in the wire leading to possible shorts, lower operational voltage and higher resistance which can lead to wires heating up and failure.
+
+	• Robot Code
+		• C++ / Java - Don't grab game data until auto init.
+		• C++ / Java - Don't assume you will have game data regardless of where you attempt to retrieve it. Be prepared to deal with null values. If code is crashing between going into auto, this is possible cause.
+			• Check for null values when you attempt to read game data in auto init, either attempt again and / or loop attempt in auto periodic until you get game data, or use a default auto program to achieve auto points.
 		
 	• Driver Station
 		• Always charge your computer, both in the pit and on the field.
