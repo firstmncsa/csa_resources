@@ -1,8 +1,14 @@
 Competition Checklist / Best Practices
 
 
+	• General
+
+		• Ensure wires are properly seated and clicked into place.
+		• Double and then triple check all fasteners, bolts and screws to ensure they are securely fastened.
+		• Double and then triple check wiring terminal ends, battery wire terminals on the battery, main breaker and PDP to ensure they are securely fastened.
 
 	• RoboRio power
+
 		• Ensure 10 & 20 amp mini blade fuses are damage free and firmly inserted into PDP at their appropriate location.
 		• Ensure you have spare unused 10 amp fuses: This protects the RoboRio.
 			• Amazon: https://www.amazon.com/Bussmann-VP-ATM-10-RP-Fast-Acting/dp/B004AHC4MG/ref=sr_1_6?ie=UTF8&qid=1520223779&sr=8-6&keywords=atm+10+amp+blade+mini
@@ -16,8 +22,14 @@ Competition Checklist / Best Practices
 		• Ensure you have extra RoboRio power connectors
 			• Digi-Key: https://www.digikey.com/product-detail/en/phoenix-contact/1714977/277-8598-ND/2527925
 			• AndyMark: http://www.andymark.com/product-p/am-2076.htm
+		• Ensure battery connector is firmly attached. You should feel it snap closed.
+			• Optional: Run a long zip tie between the red and black wires on both ends to pull and lock connector closed. Pull zip tie tight, leave no gap.
+		• Ensure battery cable crimps are tight and cables are not bent at sharp angle immediately after crimp. Replace crimps if they are, use heat shrink over crimp and wire to help with wire relief.
+
+
 		
 	• Radio power - It's highly advised to do either Option 1 & 2 or Option 2 & 3, the power barrel jack will not interfere with the PoE and provides redundancy.
+
 		• Option #1: Use KoP PoE injector to power radio.
 			• Insert power cables from PoE into the VRM. Insert the ethernet cable into the ethernet next to the power port of the radio. Do NOT connect the KoP PoE orange ethernet cable into the RoboRio.
 			• NOTE: Out of an abundance of caution, it's advised you use the KoP PoE injector only for powering the Radio. Connect an ethernet cable directly from the Radio to the RoboRio. If you need to use both ports on the radio, ensure that the Rio uses the direct connection and the other device is connected to the PoE injector jack.
@@ -32,6 +44,7 @@ Competition Checklist / Best Practices
 			• NOTE: The KoP PoE and the above PoE injector are cabled differently for ethernet. The 3rd party PoE injector above should have it's ethernet cord plugged directly into the RoboRio and then a standard ethernet cable run from it's ethernet jack to the ethernet port next to the power port on the radio. Regardless of which PoE injector you use, ensure you know which side of the injector has power and should go to the radio.
 
 	• Robot Power
+
 		• Ensure battery connector is firmly attached.
 		• Use nylon zip tie to secure both connectors together.
 		• Ensure battery holder is capable of securely holding battery in event of full speed stoppage. eg; going full speed into a wall or another robot.
@@ -45,16 +58,30 @@ Competition Checklist / Best Practices
 		• This will break strands in the wire leading to possible shorts, lower operational voltage and higher resistance which can lead to wires heating up and failure.
 
 	• Robot Code
-		• C++ / Java - Don't grab game data until auto init.
-		• C++ / Java - Don't assume you will have game data regardless of where you attempt to retrieve it. Be prepared to deal with null values. If code is crashing between going into auto, this is possible cause.
+
+		• Java / C++: Game data should be retrieved in autonomousInit not in RobotInit, please see example code on the First MN CSA csa_resources GitHub, link below.
+		• C++ / Java - Don't assume you will have game data regardless of where you attempt to retrieve it. Be prepared to deal with null or empty values. If code is crashing between going into auto, this is a possible cause.
 			• Check for null values when you attempt to read game data in auto init, either attempt again and / or loop attempt in auto periodic until you get game data, or use a default auto program to achieve auto points.
+		• Ensure you are using the latest version of the CTRE Lifeboat and firmware. Please contact firstmn.csa@gmail.com for further details.
+		• Java / C++: Conditional code should not be used in a CommandGroup constructor, due to gameData possibly not being available during CommandGroup construction. Use ConditionalCommands instead.
+		• Java teams need to check for null values from getGameSpecificMessage, we have an example up on GitHub now on one way to handle that, along with a testing mechanism to duplicate FMS behavior.
+			◦ eg; powerup2018-java-example
+		• LabView teams, please ensure you have code deployed permanently before going onto the field for competition, preferably before queuing.
+		• Ensure you driver’s station is ready and appropriate for competition.
+			◦ Boots in < 2 minutes (< 30 seconds is very achievable with a $100 SSD)
+			◦ Has working Ethernet and USB ports.
+			◦ The team has administrative control over the laptop
+			◦ See competition checklist / best practices at http://github.com/firstmncsa/csa_resources for more details.
+		• Turn off Windows Updates while at competitions.
+		• Turn off Windows Defender Firewall on private networks while at competitions.
+		• Turn off Wi-Fi and Bluetooth on the driver station while at competitions.
 		
 	• Driver Station
+
 		• Always charge your computer, both in the pit and on the field.
 		• Ensure there is no password on the computer, or ensure that all students know the password.
 		• Turn off Windows Updates while at competitions.
 		• Turn off Windows Defender Firewall on private networks while at competitions.
-		• Turn off IPv6 on Ethernet, Wifi and USB - ethernet network adapters.
 		• Turn on IPv4 DHCP aka Obtain IP Address automatically.
 		• Turn off Wi-Fi and Bluetooth on the driver station while at competitions.
 		• It is recommended to have a computer dedicated solely to being the driver station. This means no programming or surfing the web with this computer.
@@ -62,12 +89,19 @@ Competition Checklist / Best Practices
 		• Move or remove old DS Log files, default path: c:\Users\Public\Documents\FRC\DS Logs, suggestion is to move to another folder for archiving.
 
 	• RoboRio
+
 		• Turn on IPv4 DHCP / dynamic / automatic addressing for the Ethernet interface on the RoboRio web interface.
+		• Ensure power cables are firmly inserted and locked in to the PDP and Rio power connector. Use of ferrules is highly recommended.
+		• Ensure power cables have NO copper showing on either end when they are inserted into the respective devices, PDP and Rio.
+		• Ensure Ethernet cable is firmly plugged in and locks in, if you don’t feel it snap or click in, push cable in further until it does or replace the cable.
+		• Ensure RoboRio image is V17, check using the Diagnostics tab on the left and connected to a safely powered up Robot / RoboRio, the RIO: line should end in _v17, if you have _v16, you need to update the Rio Image using the RoboRio imaging tool after installing FRCUpdateSuite 2018.1.0
 
 	• On-board co-processors
+
 		• Turn on IPv4 DHCP / dynamic / automatic addressing for their respective Ethernet interfaces.
 		
 	• Firmware / Software Versions
+
 		• Ensure you are up to date with the firmware during development and definitely prior to inspection.
 			• Software
 				• Driver Station
@@ -82,14 +116,17 @@ Competition Checklist / Best Practices
 			• CSA file resource list: https://github.com/firstmncsa/csa_resources/blob/master/csa_file_reference.pdf
 
 	• Inspection readiness
+
 		• Go through inspection checklist prior to bag day
 		• Attach bag and tag form to robot bag via clear plastic sleeve
 		• Put a copy of CAW on driver station for quick access
 		• Prepare any spare parts necessary for quick installation (bag with robot if possible to avoid withholding allowance)
 
 	• Mechanical
+
 		• Ensure all motors with have leads attached
 		• Identify if any mechanism is exposed to potential impact and determine if it needs to be protected.
 
-	• Misc. 
+	• Misc.
+
 		• Generate pre match check-list, assign action to specific individuals. Run through it several times before bag up. Test checklist at Week 0 event.
