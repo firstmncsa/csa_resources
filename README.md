@@ -2,7 +2,9 @@ Welcome! This repository is intended to contain everything a CSA might need to b
 
 CSA files link below contains all the files, installers, drivers, etc... you will need to update, flash and program you FRC robot control system.
 
-Files Link: https://drive.google.com/open?id=0B2HKW3Zk3KIRLUhpWWxWRUszbHc
+New for 2019, switching over to the CSA USB tool at the link below. The files in this repository will be updated for event support materials and perhaps some misc items used by CSA's in the the upper midwest. The FirstMNCSA google drive will no longer be updated for DS / Programming tools, please use the USB tool below for that.
+
+Files Link: https://github.com/JamieSinn/CSA-USB-Tool/releases/tag/2019.1
 
 Directory Layout
 
