@@ -4,7 +4,7 @@ Welcome! This repository is intended to contain everything a CSA might need to b
 
 CSA files link below contains all the files, installers, drivers, etc... you will need to update, flash and program you FRC robot control system.
 
-Files Link: https://github.com/JamieSinn/CSA-USB-Tool/releases/tag/2019.1
+Files Link: https://github.com/JamieSinn/CSA-USB-Tool/releases
 
 Directory Layout
 
